@@ -15,7 +15,7 @@ const publicVapidKey =
 const privateVapidKey = "aBBMDyZv5iUY9GQcpEnlmJmvwwPh6TWX6i9BiHaN6f4";
 
 webpush.setVapidDetails(
-    "mailto:copstyle@naver.com",
+    "mailto:copstyle86@gmail.com",
     publicVapidKey,
     privateVapidKey
 );

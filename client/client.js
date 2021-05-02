@@ -11,7 +11,7 @@ async function send() {
     // 서비스워커 등록
     console.log("서비스워커 등록중...");
     const register = await navigator.serviceWorker.register("/worker.js", {
-        scoe: "/",
+        scope: "/",
     });
 
     console.log("서비스워커 등록됨");
